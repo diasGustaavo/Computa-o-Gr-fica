@@ -1,0 +1,8 @@
+	Este exercício consiste basicamente em baixar os arquivos que o professor passou e tentar executar, documentando o progresso 
+através de prints e arquivos de texto como este.
+	Primeiramente(imagem 0), eu baixei e tentei rodar o old_opengl pelo gcc e me deparei com esse erro(imagem 1). Pesquisei na 
+internet e, para rodar opengl eu teria que baixar uma série de ferramentas(imagem 2) e no exemplo vi que estavam compilando com g++ 
+entao tentei rodar e me lembrei que ainda nao havia instalado nesse ambiente e entao, instalei(imagem 3). Depois disso, (imagem 4) 
+consegui compilar mas não consegui rodar por causa do erro failed to open display. Suspeitei que era porque estava usando WSL para 
+rodar e realmente era isso (imagem 5). Então, entrei no Ubuntu e tentei o mesmo atalho e funcionou (imagem 6). Após isso, tentei com 
+o modern_opengl e também funcionou, apesar de ter dado uns warnings (imagem 7).
